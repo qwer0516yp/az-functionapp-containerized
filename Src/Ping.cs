@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 
-namespace Containerized.Function;
+namespace Indue.Ebt.CustomerRegistration.EntraId;
 
 public class Ping
 {
@@ -21,4 +21,3 @@ public class Ping
         return new OkObjectResult($"Welcome to Azure Functions! {DateTime.Now}");
     }
 }
-
